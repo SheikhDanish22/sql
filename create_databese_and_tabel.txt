@@ -1,0 +1,9 @@
+create databse database_name;
+
+use database_name;
+
+create table table_name(rollno int,name varchar(10),
+   city varchar(10));
+
+insert into table_name(rollno,name,city)values(101,
+       'aman','bhopal');
