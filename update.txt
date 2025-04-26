@@ -1,0 +1,2 @@
+update:-
+     update table set rollno=101 where name='aman';
