@@ -1,0 +1,10 @@
+view ---
+      like a logical table.
+
+  create view name_view as select * from tablename;
+
+
+  update name_view set name='jalaj' where roll=107;
+
+
+  create or replace view name_view as select roll,name from table_name;
