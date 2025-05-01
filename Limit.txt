@@ -1,0 +1,4 @@
+Limit----
+      select * from table_name limit 4;
+
+      select * from table_name limit 3,5;
