@@ -1,0 +1,10 @@
+The SQL IN Operator
+The IN operator allows you to specify multiple values in a WHERE clause.
+
+The IN operator is a shorthand for multiple OR conditions.
+
+ExampleGet your own SQL Server
+Return all customers from 'Germany', 'France', or 'UK'
+
+SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
